@@ -95,9 +95,9 @@ app.use((error, req, res, next) => {
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-    console.log(`🚀 Servidor corriendo en puerto ${PORT}`);
-    console.log(`📱 Modo: ${process.env.NODE_ENV}`);
-    console.log(`🔗 URL: http://localhost:${PORT}`);
+    console.log(`Servidor corriendo en puerto ${PORT}`);
+    console.log(`Modo: ${process.env.NODE_ENV}`);
+    console.log(`URL: http://localhost:${PORT}`);
 });
 
 module.exports = app;
